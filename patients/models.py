@@ -12,6 +12,7 @@ class Patient(models.Model):
     gender = models.CharField(max_length=10, choices=GENDER_CHOICES)
     phone = models.CharField(max_length=15)
     email = models.EmailField(unique=True)
+    password = models.CharField(max_length=255)
     insurance_provider = models.CharField(max_length=100, blank=True, null=True)
     insurance_number = models.CharField(max_length=50, blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
