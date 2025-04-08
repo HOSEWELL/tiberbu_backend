@@ -10,5 +10,5 @@ PyJWT==2.9.0
 sqlparse==0.5.3
 typing-extensions==4.13.0
 whitenoise==6.7.0
-dj_database_url==1.4.1
+dj_database_url
 python-decouple==3.8
