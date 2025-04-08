@@ -69,7 +69,7 @@ WSGI_APPLICATION = 'tiberbu_backend.wsgi.application'
 
 # Database configuration
 DATABASES = {
-    'default': dj_database_url.config(default=config('DATABASE_URL'))
+    'default': dj_database_url.config()
 }
 
 # Password validators
